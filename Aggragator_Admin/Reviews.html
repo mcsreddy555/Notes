@@ -1,0 +1,167 @@
+<section id="content-wrapper">
+    <div class="reviews">
+        <h2>Reviews</h2>
+        <div class="review-table">
+            <div class="filters">
+                <ul>
+                    <li>Filters:</li>
+                    <li>
+                        <label for=""><input type="radio">All</label>
+                    </li>
+                    <li>
+                        <label for=""><input type="radio">Store</label>
+                    </li>
+                    <li>
+                        <label for=""><input type="radio">Restarent</label>
+                    </li>
+
+                </ul>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Review Id</th>
+                        <th>Comments</th>
+                        <th>Ratings</th>
+                        <th>Customer Details</th>
+                        <th>Order ID</th>
+                        <th>Response</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD0001</td>
+                        <td>Comments</td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD001</td>
+                        <td>Comments</td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD001</td>
+                        <td></td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD001</td>
+                        <td>Comments</td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD001</td>
+                        <td></td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>R001</td>
+                        <td>Service is execellent</td>
+                        <td>5</td>
+                        <td>John</td>
+                        <td>OD001</td>
+                        <td>Comments</td>
+                        <td>
+                            <i class="fa fa-pencil" id="Review-Reply"
+                            onClick="loadChildren('Review-Reply.html','Review-Reply')"></i>
+                            <i class="fa fa-trash "></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <nav aria-label="Page navigation example">
+               <ul class="pagination justify-content-end">
+                 <li class="page-item disabled">
+                   <a class="page-link" href="#" tabindex="-1">Previous</a>
+                 </li>
+                 <li class="page-item"><a class="page-link" href="#">1</a></li>
+                 <li class="page-item"><a class="page-link" href="#">2</a></li>
+                 <li class="page-item"><a class="page-link" href="#">3</a></li>
+                 <li class="page-item">
+                   <a class="page-link" href="#">Next</a>
+                 </li>
+               </ul>
+             </nav>
+        </div>
+    </div>
+</section>
+
+<style>
+    .review-table{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .page-link{
+        color:  #D42628;
+        margin: 3px;
+        background: transparent;
+        border: none;
+        /* border: 1px solid #D42628; */
+        border-radius: 50%;
+        margin-right: 2px;
+    }
+    .fa{
+        cursor: pointer;
+    }
+    .filters{
+         margin-left: 0;
+    }
+    .filters ul{
+        list-style: none;
+        margin: 0;
+        display: flex;
+        
+    }
+    .filters ul li{
+        margin-right: 20px;
+    }
+    .table{
+        border: 1px solid transparent;
+    }
+    
+    
+</style>

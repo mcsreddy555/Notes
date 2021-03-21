@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrregator</title>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <!--datatable-->
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.jqueryui.min.css">
+     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.jqueryui.min.css">
+     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+ 
+     <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+     <script src="https://cdn.datatables.net/1.10.22/js/dataTables.jqueryui.min.js"></script>
+     <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+     <script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.jqueryui.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css" />
+     <script type="text/javascript" src="DataTables/datatables.min.js"></script>
+     <link rel="stylesheet" href="Main.css">
+     <!-- <script src="main.js"></script> -->
+    <!--bootstrap-->
+    <!-- <link rel="stylesheet" href="./bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="./bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-4.5.2-dist/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+   
+</head>
+
+<body>
+    <div id="wrapper">
+    <div class="row ">
+        <!-- <div class="col-lg-2 col-md-3 col-sm-4 "> -->
+              <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <h2>
+                        <span>Company Name</span>
+                    </h2>
+                </div>
+                <!-- <img class="m-2" src="" alt="Image"> -->
+                <!-- <ul class="mt-2" style="margin-left: -3rem;">
+                <a href="javascript:void(0)" id="dashboard" onClick="loadChildren('dashboard.html', 'dashboard')">
+                    <li class="active-style">Dashboard</li>
+                </a>
+                <a href="javascript:void(0)" id="Storemanagement"
+                    onClick="loadChildren('Storemanagement.html','Storemanagement')">
+                    <li class="active-style">Store Management</li>
+                </a>
+                <a href="javascript:void(0)" id="RestaurantManagement"
+                    onClick="loadChildren('RestaurantManagement.html','RestaurantManagement')">
+                    <li class="active-style">Restaurant Management</li>
+                </a>
+                <a href="javascript:void(0)" id="Orders" onClick="loadChildren('Orders.html','Orders')">
+                    <li class="active-style">Orders</li>
+                </a>
+                <a href="javascript:void(0)" id="CarouselImages"
+                    onClick="loadChildren('CarouselImages.html','CarouselImages')">
+                    <li class="active-style">Carosule Images</li>
+                </a>
+                <a href="javascript:void(0)" id="Sales" onClick="loadChildren('Sales.html','Sales')">
+                    <li class="active-style">Sales</li>
+                </a>
+                <a href="javascript:void(0)" id="Reviews" onClick="loadChildren('Reviews.html','Reviews')">
+                    <li class="active-style">Reviews</li>
+                </a>
+                <a href="javascript:void(0)" id="DeliveryExicutives"
+                    onClick="loadChildren('DeliveryExicutives.html','DeliveryExicutives')">
+                    <li class="active-style">Delivery Exicutives</li>
+                </a>
+                <a href="javascript:void(0)" id="CustomersDetails"
+                    onClick="loadChildren('CustomersDetails.html','CustomersDetails')">
+                    <li class="active-style">Customer Details</li>
+                </a>
+                <a href="javascript:void(0)" id="Profile" onClick="loadChildren('Profile.html','Profile')">
+                    <li class="active-style">Profile</li>
+                </a>
+                <a href="javascript:void(0)" id="Commisions" onClick="loadChildren('Commisions.html','Commisions')">
+                    <li class="active-style">Commision</li>
+                </a>
+            </ul> -->
+
+                <ul class="sidebar-nav">
+
+                    <a href="javascript:void(0)" id="dashboard" onClick="loadChildren('dashboard.html', 'dashboard')">
+                        <li >
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Dashboard</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="Categories"
+                        onClick="loadChildren('Categories.html','Categories')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Categories</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="Sub-Categories"
+                        onClick="loadChildren('Sub-Categories.html','Sub-Categories')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Sub-Categories</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="Items" onClick="loadChildren('Items.html','Items')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Items</span>
+                        </li>
+                    </a>
+
+                    <a href="javascript:void(0)" id="Orders" onClick="loadChildren('Orders.html','Orders')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Orders</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="CarouselImages"
+                        onClick="loadChildren('CarouselImages.html','CarouselImages')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Carousel Images</span>
+                        </li>
+                    </a>
+
+
+
+                    <a href="javascript:void(0)" id="Reviews" onClick="loadChildren('Reviews.html','Reviews')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Reviews</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="CustomersDetails"
+                        onClick="loadChildren('CustomersDetails.html','CustomersDetails')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Customer Details</span>
+                        </li>
+                    </a>
+
+
+
+                    <a href="javascript:void(0)" id="Profile" onClick="loadChildren('Profile.html','Profile')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Profile</span>
+                        </li>
+                    </a>
+
+
+                    <a href="javascript:void(0)" id="Commisions" onClick="loadChildren('Commisions.html','Commisions')">
+                        <li class="active-style">
+                            <span><i class="fa fa-home"></i></span>
+                            <span>Commision</span>
+                        </li>
+                    </a>
+
+                </ul>
+            </aside>
+        <!-- </div> -->
+        <div class="col-lg-12 col-sm-12 col-md-12 mr-0 pr-0">
+
+            <div id="navbar-wrapper">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <div>
+                            <form class="navbar-header form-inline">
+                                <img class="image m-3" src="image/search icon.png" alt="">
+                                <img class="image m-3" src="./image/notifications.png" alt="">|
+                                <img class="image1 m-3" src="./image/user black.png" alt="">
+                                <p class="m-2">Hi,Admin</p><i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--------------------------------FIRST---------------------------------------------------->
+            <div class="row col-md-12 w-100" id="ChildrenDiv" style="overflow: auto !important;
+            height: 86vh;">
+
+            </div>
+            <!------------------------------------------------------------------------------------------->
+        </div>
+        
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+      <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<section id="content-wrapper">
+    <div id="add-category">
+        <div aria-label="breadcrumb" id="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item" id="Categories"
+            onClick="loadChildren('Categories.html','Categories')" style="cursor: pointer;">Sub Category</li>
+            <li class="breadcrumb-item active" aria-current="Add-carouselImages.htm">Add Sub-Category</li>
+            </ol>
+        </div>
+        <h3>Add New Sub-Category</h3>
+        <div class="row" >
+            <div class="col-md-6" style="background-color: white; border-radius: 5px; padding: 30px; margin-left: 30px;">
+            <div class="add-category1">
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label for="catg-id">Sub-Category ID</label>
+                        <input type="text" class="form-control" placeholder="C0001">
+                    </div>
+                    <div class="form-group">
+                        <label for="catg-id">Sub-Category Name</label>
+                        <input type="text" class="form-control" placeholder="Flat 20% OFF">
+                    </div>
+                    <div class="form-group">
+                        <label for="catg-img">Image</label>
+                        <div class="form-inline justify-content-between">
+                        <input type="" class="form-control" placeholder="Select Image" id="caroussel1">
+                        <button type="button" class="btn" style="background-color:#4f8cb4">
+                            <!-- <input type="file"> -->
+                            UPLOAD</button>
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Select Category">Select Category
+                        </label>
+                        <select name="" id="Category" class="form-control">
+                            <option value="James Restarent">James Restarent</option>
+                            <option value="Jomes Martin Restarent ">James Martin Restarent</option>
+                        </select>
+                    </div>
+                    <div class="" style="align-items: center; text-align: center; justify-content: space-around;">
+                        <button class="btn btn-outline-danger mr-5" type="reset">Cancel</button>
+                        <button class="btn btn-danger" type="submit">Add</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<style>
+    .breadcrumb{
+        background-color: transparent;
+        font-weight:600;
+    }
+    #section1 ol{
+        margin:0;
+    }
+    .row{
+        margin-left:0 ;
+    }
+
+</style>
